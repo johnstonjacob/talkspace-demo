@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mvxt/circleci-se-challenge.git"
+    "url": "git+https://github.com/johnstonjacob/talkspace-demo.git"
   },
   "keywords": [
     "node",
@@ -33,9 +33,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mvxt/circleci-se-challenge/issues"
+    "url": "https://github.com/johnstonjacob/talkspace-demo/issues"
   },
-  "homepage": "https://github.com/mvxt/circleci-se-challenge#readme",
+  "homepage": "https://github.com/johnstonjacob/talkspace-demo#readme",
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.8.1",
     "bootstrap": "4.3.1",

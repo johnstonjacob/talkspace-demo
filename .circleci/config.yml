@@ -4,7 +4,7 @@
 ##########################
 aliases:
   - &project_dir "~/circleci-se-challenge"
-  - &bucket_name "s3://circleci-se-challenge"
+  - &bucket_name "s3://jacob-talkspace-demo"
   - &container_config
     docker:
       - image: circleci/node:10.15.1-browsers
@@ -78,7 +78,7 @@ jobs:
           paths:
             - node_modules
       - run:
-          name: Split TestCafe tests between containers and run them 
+          name: Split TestCafe tests between containers and run them
           command: |
             TESTFILES=$(ls test/*)
             echo "Testing $TESTFILES on this container"
@@ -115,7 +115,7 @@ jobs:
           paths:
             - node_modules
       - run:
-          name: Split TestCafe tests between containers and run them 
+          name: Split TestCafe tests between containers and run them
           command: |
             TESTFILES=$(circleci tests glob test/* | circleci tests split --total=4)
             echo "Testing $TESTFILES on this container"
