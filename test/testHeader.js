@@ -5,7 +5,7 @@ fixture `Testing Header & Hero Section`
 
 test('Check page has welcome message', async t => {
   await t
-      .expect(Selector('.intro-lead-in').innerText).eql('Welcome to Orpheus Studios');
+      .expect(Selector('.intro-lead-in').innerText).eql('Welcome to Omega Studios');
 });
 
 test('Check subheading matches marketing template', async t => {

@@ -1,9 +1,9 @@
-# Author: @mvxt
+# Author: @johnstonjacob
 ##########################
 # Common Definitions
 ##########################
 aliases:
-  - &project_dir "~/circleci-se-challenge"
+  - &project_dir "~/talkspace-demo"
   - &bucket_name "s3://jacob-talkspace-demo"
   - &container_config
     docker:
