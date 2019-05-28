@@ -153,3 +153,10 @@ jobs:
           from: .
           to: *bucket_name
 
+notify:
+    webhooks:
+        - url: $NOTIFY_WH
+    branches:
+        only:
+            - master
+
